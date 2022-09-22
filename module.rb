@@ -25,5 +25,5 @@ module MyEnumerable
       oyin.push(said) if yield(said)
     end
     puts oyin.to_s
-    end
+  end
 end
