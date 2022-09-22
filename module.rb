@@ -11,13 +11,13 @@ module MyEnumerable
     puts oyin.length == list.length
   end
 
-#   def any?
-#     oyin = []
-#     list.each do |said|
-#       oyin.push(said) if yield(said)
-#     end
-#     puts !oyin.empty?
-#   end
+  def any?
+    oyin = []
+    list.each do |said|
+      oyin.push(said) if yield(said)
+    end
+    puts !oyin.empty?
+  end
 
 #   def filter?
 #     oyin = []
