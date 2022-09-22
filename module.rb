@@ -19,11 +19,11 @@ module MyEnumerable
     puts !oyin.empty?
   end
 
-#   def filter?
-#     oyin = []
-#     list.each do |said|
-#       oyin.push(said) if yield(said)
-#     end
-#     puts oyin.to_s
-#   end
+  def filter?
+    oyin = []
+    list.each do |said|
+      oyin.push(said) if yield(said)
+    end
+    puts oyin.to_s
+    end
 end
